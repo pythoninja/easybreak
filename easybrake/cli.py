@@ -11,7 +11,7 @@ def get_cli_parser():
         allow_abbrev=True,
     )
 
-    parser.add_argument('--version', action='version', version=f'%(prog)s {__version__}')
+    parser.add_argument('--version', action='version', version=f'easybrake v{__version__}')
 
     subparser = parser.add_subparsers(
         help="generate the commands to run with shell", required=True
