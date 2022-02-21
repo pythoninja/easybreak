@@ -1,0 +1,5 @@
+kind: Changed
+body: display full app name in `--version` output
+time: 2022-02-21T08:23:16.135524243+03:00
+custom:
+  Issue: "1"
